@@ -67,6 +67,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
   
   .catch(function(error) {
     console.log("error!", error);
+    alert("Failed to fetch data!")
+  
   })
   
   .then(function() {
@@ -95,6 +97,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
       articleCard.addEventListener("click", () => {
           console.log(obj.headline);
+
+       
       })
       
       return articleCard;
