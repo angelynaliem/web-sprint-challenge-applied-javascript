@@ -28,13 +28,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+DOM (Document Object Model) is an Application Programming Interface (“API”) by the browser and connects the browser with the code of any language. DOM manipulate the content, structure, and style on the webpage.
+
 2. What is an event?
+
+An event is an object based on the Event interface that is used to notify code of something that has taken place such as basic user interaction.
 
 3. What is an event listener?
 
+An event listener is a method that listens to when an event is fired in order to run the event.
+
 4. Why would we convert a NodeList into an Array?
 
+We want to convert a NodeList into an Array so that we can use Array methods and have more ability to manipulate the data, e.g. using .map, .filter, .slice, etc.
+
 5. What is a component?
+
+Component is a reusable code/function that helps make our code more DRY and development faster.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
